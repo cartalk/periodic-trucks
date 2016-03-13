@@ -239,6 +239,11 @@ body {
   text-align: right;
 }
 
+.scroll-col {
+  height: 100vh;
+  overflow: scroll;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
