@@ -1,5 +1,8 @@
 
       <nav class="truck-nav">
+        <span class="truck-nav-label">
+          GVWR:
+        </span>
         <div class="truck-nav-filter truck-nav-filter-all current" data-filter="*">
           All
         </div>
@@ -24,20 +27,25 @@
           <div class="grid-cell <%= weight_class.slug %>">
             <div class="grid-cell-interior">
               <header class="element-header">
-                <div class="element-header-tr">
-                  <div class="element-header-td">
+                <div class="table-tr">
+                  <div class="table-td">
                     <%= truck.make %> <%= content_tag(:span, truck.model, :class => 'model') %></span>
                   </div>
                   <div class="element-header-td text-right">
-                    <%= content_tag(:span, rand(3..9).to_s, :class => 'msrp') %>
+                    <%= content_tag(:span, rand(3..9).to_s, :class => 'numeral msrp') %>
                   </div>
                 </div>
               </header>
               <figure class="element-figure">
                 <%= svg 'pickup' %>
               </figure>
-              <footer class="element-footer">
+              <div class="element-footer">
                 <%= truck.cab_type.to_s + ' Cab - 4x' + truck.drive_wheels.to_s %>
+              </div>
+              <footer class="element-power">
+                <% 3.times do %>
+                  <%= content_tag(:span, rand(2..9).to_s, :class => 'element-power-measure') %>
+                <% end %>
               </footer>
             </div>
           </div>
