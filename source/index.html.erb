@@ -29,12 +29,12 @@
                     <%= truck.make %> <%= content_tag(:span, truck.model, :class => 'model') %></span>
                   </div>
                   <div class="element-header-td text-right">
-                    <%= content_tag(:span, rand(1..9).to_s, :class => 'msrp') %>
+                    <%= content_tag(:span, rand(3..9).to_s, :class => 'msrp') %>
                   </div>
                 </div>
               </header>
               <figure class="element-figure">
-                <%= image_tag('pick-up.png', :class => 'img-responsive') %>
+                <%= svg 'pickup' %>
               </figure>
               <footer class="element-footer">
                 <%= truck.cab_type.to_s + ' Cab - 4x' + truck.drive_wheels.to_s %>

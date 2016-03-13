@@ -138,6 +138,32 @@ body {
   }  
 }
 
+.element-figure {
+  padding: 10px;
+  svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    path {
+      .light-duty & {
+        fill: darken($light_red, 14%);
+      }
+      .class-1-midsize & {
+        fill: darken(lighten(orange, 30%), 14%);
+      }
+      .class-1-fullsize & {
+        fill: darken($light_green, 14%);
+      }
+      .class-2 & {
+        fill: darken($light_blue, 14%);
+      }
+      .class-3 & {
+        fill: darken($light_purple, 14%);
+      }  
+    }
+  }
+}
+
 .model {
   display: block;
   font-weight: 300;

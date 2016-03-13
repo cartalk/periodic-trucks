@@ -4,6 +4,14 @@ module SiteHelpers
     data.gvwr_classes.detect {|c| c.id == id }
   end
 
+# Middleman 
+  def svg(name)
+    root = Middleman::Application.root 
+    file_path = "#{root}/source/images/#{name}.svg" 
+    return File.read(file_path) if File.exists?(file_path)
+    '(not found)' 
+  end
+
 
 # TAKEN FROM RAILS API DOCS
   def link_to_unless(condition, name, options = {}, html_options = {}, &block)
