@@ -999,36 +999,54 @@ body {
   padding: 4px 0;
   font: 300 15px/1.3 "Gotham SSm A", "Gotham SSm B", Gotham, sans-serif; }
 
+.site-nav {
+  margin: 4px 0 8px;
+  padding: 0 4px; }
+  @media screen and (min-width: 480px) {
+    .site-nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      width: 140px;
+      margin: 0;
+      padding: 4px;
+      background-color: #fff; } }
+
+@media screen and (min-width: 480px) {
+  .site-main {
+    margin-left: 150px; } }
+
 .container-fluid {
   padding-left: 5px;
   padding-right: 5px; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .truck-nav {
-    display: table;
-    margin: 4px 0 8px; } }
+    display: inline-block;
+    line-height: 11px; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .truck-nav-label {
-    display: table-cell;
-    vertical-align: top;
-    width: 70px; } }
+    display: none; } }
 
-.truck-nav-filters {
-  display: inline-block; }
-  @media screen and (max-width: 767px) {
-    .truck-nav-filters {
-      display: table-cell;
-      vertical-align: middle; } }
+@media screen and (max-width: 479px) {
+  .truck-nav-filters {
+    display: inline-block;
+    line-height: 11px; } }
 
 .truck-nav-filter {
-  display: block;
-  margin: 0 0 0 10px;
+  display: inline-block;
   font-size: 11px;
   font-weight: 300;
   line-height: 1.4;
   text-transform: uppercase;
   color: #777; }
+  @media screen and (min-width: 480px) {
+    .truck-nav-filter {
+      display: block;
+      margin: 0 0 0 10px; } }
   .truck-nav-filter.current {
     color: #000;
     font-weight: 700; }
@@ -1036,7 +1054,7 @@ body {
     text-decoration: underline;
     color: #000;
     cursor: pointer; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 479px) {
     .truck-nav-filter {
       display: inline-block; } }
 
@@ -1046,7 +1064,10 @@ body {
 
 .grid-cell, .grid-cell-sizer {
   width: 50%; }
-  @media screen and (min-width: 480px) and (max-width: 991px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .grid-cell, .grid-cell-sizer {
+      width: 33.3333333333%; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     .grid-cell, .grid-cell-sizer {
       width: 25%; } }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1104,19 +1125,19 @@ body {
   color: #fff; }
   .light-duty .element-footer {
     background-color: #ffaeb6;
-    color: #ae0011; }
+    color: #e10017; }
   .class-1-midsize .element-footer {
     background-color: #ffc966;
-    color: #664200; }
+    color: #996300; }
   .class-1-fullsize .element-footer {
     background-color: #bbe0bd;
-    color: #316b34; }
+    color: #418e45; }
   .class-2 .element-footer {
     background-color: #a0defb;
-    color: #076896; }
+    color: #098ac6; }
   .class-3 .element-footer {
     background-color: #d1c2e8;
-    color: #4e2f7c; }
+    color: #653da1; }
 
 .element-figure {
   padding: 10px; }
@@ -1137,22 +1158,17 @@ body {
 
 .element-power {
   font-size: 10px;
-  font-weight: 700; }
+  color: #fff; }
   .light-duty .element-power {
-    background-color: #ff7b88;
-    color: #e10017; }
+    background-color: #ff7b88; }
   .class-1-midsize .element-power {
-    background-color: #ffb733;
-    color: #996300; }
+    background-color: #ffb733; }
   .class-1-fullsize .element-power {
-    background-color: #98d09b;
-    color: #418e45; }
+    background-color: #98d09b; }
   .class-2 .element-power {
-    background-color: #6fcdf9;
-    color: #098ac6; }
+    background-color: #6fcdf9; }
   .class-3 .element-power {
-    background-color: #b59dda;
-    color: #653da1; }
+    background-color: #b59dda; }
 
 .make {
   font-weight: 700;
@@ -1174,7 +1190,7 @@ body {
 
 .scroll-col {
   height: 100vh;
-  overflow: scroll; }
+  overflow-y: scroll; }
 
 .img-responsive {
   display: block;

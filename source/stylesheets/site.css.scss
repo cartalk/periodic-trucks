@@ -13,37 +13,59 @@ body {
   font: 300 15px/1.3 "Gotham SSm A", "Gotham SSm B", Gotham, sans-serif;
 }
 
+.site-nav {
+  margin: 4px 0 8px;
+  padding: 0 4px;
+  @media screen and (min-width: 480px) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 140px;
+    margin: 0;
+    padding: 4px;
+    background-color: #fff;
+  }
+}
+
+.site-main {
+  @media screen and (min-width: 480px) {
+    margin-left: 150px;
+  }
+}
+
 .container-fluid {
   padding-left: 5px;
   padding-right: 5px;
 }
 
 .truck-nav {
-  @media screen and (max-width: 767px) {
-    display: table;
-    margin: 4px 0 8px;
+  @media screen and (max-width: 479px) {
+    display: inline-block;
+    line-height: 11px;
   }
 }
 
 .truck-nav-label {
-  @media screen and (max-width: 767px) {
-    display: table-cell;
-    vertical-align: top;
-    width: 70px;
+  @media screen and (max-width: 479px) {
+    display: none;
   }
 }
 
 .truck-nav-filters {
-  display: inline-block;
-  @media screen and (max-width: 767px) {
-    display: table-cell;
-    vertical-align: middle;
+  @media screen and (max-width: 479px) {
+    display: inline-block;
+    line-height: 11px;
   }
 }
 
 .truck-nav-filter {
-  display: block;
-  margin: 0 0 0 10px;
+  display: inline-block;
+  @media screen and (min-width: 480px) {
+    display: block;
+    margin: 0 0 0 10px;
+  }
   font-size: 11px;
   font-weight: 300;
   line-height: 1.4;
@@ -58,7 +80,7 @@ body {
     color: #000;
     cursor: pointer;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 479px) {
     display: inline-block;
   }
 }
@@ -70,7 +92,10 @@ body {
 
 .grid-cell, .grid-cell-sizer {
   width: 50%;
-  @media screen and (min-width: 480px) and (max-width: 991px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    width: 33.3333333333%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     width: 25%;
   }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -146,23 +171,23 @@ body {
   color: #fff;
   .light-duty & {
     background-color: darken($light_red, 10%);
-    color: darken($light_red, 60%);
+    color: darken($light_red, 50%);
   }
   .class-1-midsize & {
     background-color: darken(lighten(orange, 30%), 10%);
-    color: darken(lighten(orange, 30%), 60%);
+    color: darken(lighten(orange, 30%), 50%);
   }
   .class-1-fullsize & {
     background-color: darken($light_green, 10%);
-    color: darken($light_green, 60%);
+    color: darken($light_green, 50%);
   }
   .class-2 & {
     background-color: darken($light_blue, 10%);
-    color: darken($light_blue, 60%);
+    color: darken($light_blue, 50%);
   }
   .class-3 & {
     background-color: darken($light_purple, 10%);
-    color: darken($light_purple, 60%);
+    color: darken($light_purple, 50%);
   }  
 }
 
@@ -194,26 +219,21 @@ body {
 
 .element-power {
   font-size: 10px;
-  font-weight: 700;
+  color: #fff;
   .light-duty & {
     background-color: darken($light_red, 20%);
-    color: darken($light_red, 50%);
   }
   .class-1-midsize & {
     background-color: darken(lighten(orange, 30%), 20%);
-    color: darken(lighten(orange, 30%), 50%);
   }
   .class-1-fullsize & {
     background-color: darken($light_green, 20%);
-    color: darken($light_green, 50%);
   }
   .class-2 & {
     background-color: darken($light_blue, 20%);
-    color: darken($light_blue, 50%);
   }
   .class-3 & {
     background-color: darken($light_purple, 20%);
-    color: darken($light_purple, 50%);
   }   
 }
 
@@ -241,7 +261,7 @@ body {
 
 .scroll-col {
   height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .img-responsive {
