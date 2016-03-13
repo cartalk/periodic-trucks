@@ -37,10 +37,10 @@
               <header class="element-header">
                 <div class="table-tr">
                   <div class="table-td">
-                    <%= truck.make %> <%= content_tag(:span, truck.model, :class => 'model') %></span>
+                    <%= content_tag(:span, truck.make, :class => 'make') %> <%= content_tag(:span, truck.model, :class => 'model') %></span>
                   </div>
                   <div class="element-header-td text-right">
-                    <%= content_tag(:span, rand(3..9).to_s, :class => 'numeral msrp') %>
+                    <%= content_tag(:span, '$' + rand(30..99).to_s + 'K', :class => 'msrp') %>
                   </div>
                 </div>
               </header>
@@ -51,9 +51,14 @@
                 <%= truck.cab_type.to_s + ' Cab - 4x' + truck.drive_wheels.to_s %>
               </div>
               <footer class="element-power">
-                <% 3.times do %>
-                  <%= content_tag(:span, rand(2..9).to_s, :class => 'element-power-measure') %>
-                <% end %>
+                <div class="table-tr">
+                  <div class="table-td">
+                    <%= truck.max_towing.blank? ? 'T-' + rand(1000..10000).to_s : 'T-' + truck.max_towing.to_s %>
+                  </div>
+                  <div class="table-td text-right">
+                    <%= truck.max_payload.blank? ? 'P-' + rand(1000..10000).to_s : 'P-' + truck.max_payload.to_s %>
+                  </div>
+                </div>
               </footer>
             </div>
           </div>
