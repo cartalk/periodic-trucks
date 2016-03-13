@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import "normalize",
+        "bootstrap_grid";
+
+$light_blue: rgb(209,239,253);
+$light_red: rgb(255,225,228);
+$light_green: rgb(222,240,223);
+$light_purple: #ede7f6;
+
+
+body {
+  font: 300 15px/1.3 'open sans condensed', sans-serif;
+}
+
+.truck-nav-filter {
+  display: inline-block;
+  margin: 15px 0 5px;
+  font-size: 18px;
+  + .truck-nav-filter {
+    margin-left: 0.5em;
+  }
+  &.current {
+    font-weight: 900;
+  }
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.grid {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.grid-cell, .grid-cell-sizer {
+  width: 50%;
+  @media screen and (min-width: 480px) and (max-width: 991px) {
+    width: 25%;
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    width: 20%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 12.5%;
+  }
+}
+
+.grid-cell {
+  margin-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.grid-cell-interior {
+  .light-duty & {
+    background-color: $light_red;
+  }
+  .class-1-midsize & {
+    background-color: lighten(orange, 30%);
+  }
+  .class-1-fullsize & {
+    background-color: $light_green;
+  }
+  .class-2 & {
+    background-color: $light_blue;
+  }
+  .class-3 & {
+    background-color: $light_purple;
+  }
+}
+
+.element-header, .element-body {
+  padding: 5px;
+}
+
+.element-header {
+  color: #fff;
+  font-weight: 700;
+  .light-duty & {
+    background-color: darken($light_red, 10%);
+  }
+  .class-1-midsize & {
+    background-color: darken(lighten(orange, 30%), 10%);
+  }
+  .class-1-fullsize & {
+    background-color: darken($light_green, 10%);
+  }
+  .class-2 & {
+    background-color: darken($light_blue, 10%);
+  }
+  .class-3 & {
+    background-color: darken($light_purple, 10%);
+  }  
+}
+
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+

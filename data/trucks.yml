@@ -1,0 +1,991 @@
+
+-
+  make: Honda
+  model: Ridgeline
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 0
+  max_payload: 1600
+  max_towing: 5000
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Colorado
+  cab_type: Extended
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Colorado
+  cab_type: Extended
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Colorado
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Colorado
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-350SD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-450SD
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-450SD
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Canyon
+  cab_type: Extended
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Canyon
+  cab_type: Extended
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Canyon
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Canyon
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 3500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Frontier
+  cab_type: Extended
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Frontier
+  cab_type: Extended
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Frontier
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Frontier
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Titan XD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Titan XD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Titan XD
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Nissan
+  model: Titan XD
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 3500HD
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tacoma
+  cab_type: Extended
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tacoma
+  cab_type: Extended
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tacoma
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tacoma
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.1
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tundra
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tundra
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tundra
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Toyota
+  model: Tundra
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 1.2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 3500HD
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 2 
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-150
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Ford
+  model: F-250 SD
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 1500
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: Chevrolet
+  model: Silverado 2500HD
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 1500
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: GMC
+  model: Sierra 2500HD
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Double
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Double
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 1500
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 1.2
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Regular
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Regular
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Super
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Super
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Crew
+  drive_wheels: 2
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
+-
+  make: RAM
+  model: 2500
+  cab_type: Crew
+  drive_wheels: 4
+  gvwr_class: 3
+  max_payload: 
+  max_towing: 
+  msrp: 
+
