@@ -1,22 +1,30 @@
 
+<div class="row">
+  <div class="col-sm-2">
+
       <nav class="truck-nav">
-        <span class="truck-nav-label">
+        <div class="truck-nav-label">
           GVWR:
-        </span>
-        <div class="truck-nav-filter truck-nav-filter-all current" data-filter="*">
-          All
         </div>
-        <% 
-            trucks_sorted_by_gvwr = data.trucks.sort_by {|t| t.gvwr_class}
-            trucks_by_gvwr = trucks_sorted_by_gvwr.group_by {|t| t.gvwr_class}
-            trucks_by_gvwr.each do |gvwr, trucks|
-        %>
-        <% weight_class = gvwr_by_id(gvwr) %>
-        <div class="truck-nav-filter truck-nav-filter-<%= weight_class.slug %>" data-filter=".<%= weight_class.slug %>">
-          <%= weight_class.name %>
+        <div class="truck-nav-filters">
+          <div class="truck-nav-filter truck-nav-filter-all current" data-filter="*">
+            All
+          </div>
+          <% 
+              trucks_sorted_by_gvwr = data.trucks.sort_by {|t| t.gvwr_class}
+              trucks_by_gvwr = trucks_sorted_by_gvwr.group_by {|t| t.gvwr_class}
+              trucks_by_gvwr.each do |gvwr, trucks|
+          %>
+          <% weight_class = gvwr_by_id(gvwr) %>
+            <div class="truck-nav-filter truck-nav-filter-<%= weight_class.slug %>" data-filter=".<%= weight_class.slug %>">
+              <%= weight_class.name %>
+            </div>
+          <% end %>
         </div>
-        <% end %>
       </nav>
+
+    </div>
+    <div class="col-sm-10">
 
       <div class="grid">
         <div class="grid-cell-sizer"></div>
@@ -51,6 +59,9 @@
           </div>
         <% end %>
       </div>
+
+    </div>
+  </div>
 
 
 
