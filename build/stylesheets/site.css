@@ -1073,9 +1073,12 @@ body {
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     .grid-cell, .grid-cell-sizer {
       width: 20%; } }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) and (max-width: 1499px) {
     .grid-cell, .grid-cell-sizer {
       width: 16.666666667%; } }
+  @media screen and (min-width: 1500px) {
+    .grid-cell, .grid-cell-sizer {
+      width: 10%; } }
 
 .grid-cell {
   margin-bottom: 4px;
@@ -1143,6 +1146,7 @@ body {
   padding: 10px; }
   .element-figure svg {
     display: block;
+    margin: 0 auto;
     max-width: 100%;
     height: auto; }
     .light-duty .element-figure svg path {
